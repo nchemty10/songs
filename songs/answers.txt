@@ -1,0 +1,24 @@
+1.
+
+Assuming you have a table called "songs" with the following columns:
+
+(1)song_id (unique identifier for each song)
+(2)title (song title)
+(3)artist (song artist)
+(4)release_year (year the song was released)
+(5)audio_features (audio features like tempo, danceability, energy, etc.)
+
+You can start with a query like this to extract the top 100 songs from 2018 for a particular listener
+ (assuming you have listener information in the database as well)
+
+2.
+
+(1)Limited Time Frame: The analysis is constrained to a single year.
+Musical tastes can change over time, and a listener's preference in a particular year may not fully
+represent their overall musical preferences.
+
+(2)Genre and Diversity: The top 100 songs from a single year might not capture the listener's full range of musical interests.
+They may enjoy a diverse set of genres and styles that may not be reflected in a single year's charts.
+
+(3)Individual Variability: People often have personal preferences that go beyond the general characteristics of songs.
+They may have emotional connections to specific tracks or artists that aren't captured by audio features alone.
